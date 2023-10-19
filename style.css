@@ -1,0 +1,52 @@
+ @import url('https://fonts.googleapis.com/css2?family=K2D:wght@800&family=Kanit&display=swap');
+ *
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'K2D', sans-serif;
+    font-family: 'Kanit', sans-serif;
+ }
+
+ 
+ .table {
+     width: 100%;
+     border-collapse: collapse;
+     margin-bottom: 20px;
+ }
+
+ .table th, .table td {
+     padding: 8px;
+     border: 1px solid #ddd;
+     text-align: left;
+ }
+
+ .modal-row th, .modal-row td {
+     border-top: none;
+     border-bottom: 1px solid #ddd;
+ }
+
+ .modal-row th {
+     background-color: #f2f2f2;
+ }
+
+ body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+

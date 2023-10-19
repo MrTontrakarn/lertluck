@@ -1,0 +1,94 @@
+<tr>
+                        <td><input type="text" class="form-control" style="width: 100%;" name="txt_size_details" id="txt_size_details<?php echo $i; ?>"></td>
+                        <td><input type="text" class="form-control" style="width: 100%;" name="txt_ss" id="txt_ss<?php echo $i; ?>"></td>
+                        <td><input type="text" class="form-control" style="width: 100%;" name="txt_s" id="txt_s<?php echo $i; ?>"></td>
+                        <td><input type="text" class="form-control" style="width: 100%;" name="txt_m" id="txt_m<?php echo $i; ?>"></td>
+                        <td><input type="text" class="form-control" style="width: 100%;" name="txt_l" id="txt_l<?php echo $i; ?>"></td>
+                        <td><input type="text" class="form-control" style="width: 100%;" name="txt_xl" id="txt_xl<?php echo $i; ?>"></td>
+                        <td><input type="text" class="form-control" style="width: 100%;" name="txt_xl2" id="txt_xl2<?php echo $i; ?>"></td>
+                        <td><input type="text" class="form-control" style="width: 100%;" name="txt_xl3" id="txt_xl3<?php echo $i; ?>"></td>
+                        <td><input type="text" class="form-control" style="width: 100%;" name="txt_xl4" id="txt_xl4<?php echo $i; ?>"></td>
+                        <td><input type="text" class="form-control" style="width: 100%;" name="txt_xl5" id="txt_xl5<?php echo $i; ?>"></td>
+                        <td><input type="text" class="form-control" style="width: 100%;" name="txt_xl6" id="txt_xl6<?php echo $i; ?>"></td>
+                        <td><input type="text" class="form-control" style="width: 100%;" name="txt_xl7" id="txt_xl7<?php echo $i; ?>"></td>
+                    </tr>
+
+
+PTC ผูกกับ สเปค วิธีการเย็บ 
+รหัสสินค้า ผูกกับ อุปกรณ์ วัตถุดิบ(ผ้า) รหัสPtc
+
+
+//Oder บวกกัน เลือกงาน = รวมส่งผลิต 
+//ตัดได้จริง x จำนวน เพิ่ม 1 ช่องเป็นช่องคูณสูตรการใช้ต่อตัว  
+//ช่องพิเศษ อุปกรณ์เฉพาะ
+//อุปกรณ์แพค x ตัดได้จริง 
+
+detailsInput.value = '';
+
+     sizeVInput.value = '';
+     sizeVInput.value = '';
+     sizeVInput.value = '';
+     sizeVInput.value = '';
+     sizeVInput.value = '';
+     sizeVInput.value = '';
+     sizeVInput.value = '';
+     sizeVInput.value = '';
+     sizeVInput.value = '';
+     sizeVInput.value = '';
+
+     onPdvInput.value = '';
+     onPdvInput.value = '';
+     onPdvInput.value = '';
+     onPdvInput.value = '';
+     onPdvInput.value = '';
+     onPdvInput.value = '';
+     onPdvInput.value = '';
+     onPdvInput.value = '';
+     onPdvInput.value = '';
+     onPdvInput.value = '';
+
+     odVInput.value = '';
+     odVInput.value = '';
+     odVInput.value = '';
+     odVInput.value = '';
+     odVInput.value = '';
+     odVInput.value = '';
+     odVInput.value = '';
+     odVInput.value = '';
+     odVInput.value = '';
+     odVInput.value = '';
+    // เพิ่มตัวแปรสำหรับข้อมูล if_v, if_v, เป็นต้น
+     ifVInput.value = '';
+     ifVInput.value = '';
+     ifVInput.value = '';
+     ifVInput.value = '';
+     ifVInput.value = '';
+     ifVInput.value = '';
+     ifVInput.value = '';
+     ifVInput.value = '';
+     ifVInput.value = '';
+     ifVInput.value = '';
+     ifVInput.value = '';
+    // เพิ่มตัวแปรสำหรับข้อมูล cut_v, cut_v, เป็นต้น
+     cutVInput.value = '';
+     cutVInput.value = '';
+     cutVInput.value = '';
+     cutVInput.value = '';
+     cutVInput.value = '';
+     cutVInput.value = '';
+     cutVInput.value = '';
+     cutVInput.value = '';
+     cutVInput.value = '';
+     cutVInput.value = '';
+
+    // เพิ่มตัวแปรสำหรับข้อมูล cuttrue_v, cuttrue_v, เป็นต้น
+     cuttrueVInput.value = '';
+     cuttrueVInput.value = '';
+     cuttrueVInput.value = '';
+     cuttrueVInput.value = '';
+     cuttrueVInput.value = '';
+     cuttrueVInput.value = '';
+     cuttrueVInput.value = '';
+     cuttrueVInput.value = '';
+     cuttrueVInput.value = '';
+     cuttrueVInput.value = '';
